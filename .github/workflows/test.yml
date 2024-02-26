@@ -1,12 +1,17 @@
-name: test
+name: Testing
 on: 
   push:
     branches:
       branch-dil
+      main
 jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step
+      - name: first
         run: echo "Hello World!"
+      - name: second
+        run:
+          echo "second step"
+        
       
