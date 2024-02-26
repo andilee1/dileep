@@ -18,5 +18,7 @@ jobs:
       - name: third
         run:
           echo "3"
+      - name: Checkout
+        uses: actions/checkout@v4
         
       
