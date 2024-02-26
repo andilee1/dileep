@@ -19,7 +19,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
   separate-specs:
-    # example where we pass specs to run via multiple lines
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
