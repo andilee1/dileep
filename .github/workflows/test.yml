@@ -5,8 +5,6 @@ on:
       branch-dil
       main
   pull_request:
-     branches:
-       main
   workflow_dispatch:
 jobs:
   my-job:
