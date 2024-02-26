@@ -1,10 +1,9 @@
-name: Reusable Workflow
+name: checkout
 
 on:
-  push:
-    branches:
-      - main
-      - master
+  workflow_call:
+    inputs:
+      trigger-reusable: {}
 
 jobs:
   my-job:
