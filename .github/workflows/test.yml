@@ -4,6 +4,7 @@ on:
     branches:
       branch-dil
       main
+      master
   workflow_dispatch:
 jobs:
   my-job:
