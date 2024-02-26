@@ -1,0 +1,15 @@
+name: workflow_check
+
+on:
+  push:
+    branches:
+      - feature/*
+      - main
+      - master
+
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Use Reusable Workflow
+        uses: ./.github/workflows/reusable_workflow.yml
