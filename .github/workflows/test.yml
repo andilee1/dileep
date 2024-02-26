@@ -17,6 +17,6 @@ jobs:
           echo "second step"
       - name: third
         run:
-          echo "3 #######"
+          echo "3"
         
       
