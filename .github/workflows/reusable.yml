@@ -8,8 +8,5 @@ on:
       - master
 
 jobs:
-  my-job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: template
-        uses: ./.github/workflow-templates/checkout.yml
+  calling-checkout:
+    uses: dileep/.github/Workflow-Base/checkout.yml@master
