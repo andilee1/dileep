@@ -9,4 +9,4 @@ on:
 
 jobs:
   calling-checkout:
-    uses: dileep/.github/Workflow-Base/checkout.yml@master
+    uses: dileep/.github/Workflows/checkout.yml@main
