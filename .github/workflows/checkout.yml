@@ -1,9 +1,7 @@
 name: checkout
 
 on:
-  workflow_call:
-    inputs:
-      trigger-reusable: {}
+
 
 jobs:
   my-job:
